@@ -1,7 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Ames Housing Data & Kaggle Challenge
 
----
-
 ## 1. Problem Statement
 
 This project is meant to predict the sales price of houses in [Ames](https://en.wikipedia.org/wiki/Ames,_Iowa), a city based in the state of Iowa of United States from 2005 to 2010. Its main objective is to identify the best predictors of house prices in Ames over the period of prolonged recession.
@@ -17,8 +15,6 @@ In summary, the project shall :-
 From 2005 to 2010, the United States was experiencing an economy downturn. Based on the [data](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2021&locations=US&start=2000) from the world bank, the GDP of the United States has been on a downward trend from 2004 to 2009 before making a recovery in 2010. Part of the downward trend was labelled [The Great Recession](https://www.cnbc.com/2020/04/09/what-happened-in-every-us-recession-since-the-great-depression.html), which lasted for about 1.5 years. Despite the recent recession of the United States economy due to the Covid-19 pandemic that lasted for merely two months in 2020, the United States has been [predicted](https://fortune.com/2022/09/21/long-ugly-recession-dr-doom-nouriel-roubini/) to suffer another 'long and ugly' recession like The Great Recession. Hence, to predict the impact of the next recession, the project is inclined to examine the period from 2005 to 2010 as the most recent prolonged recession.
 
 Against this backdrop, the project narrows its scope to the housing market of the city of Ames. Interestingly, Ames was one of those cities which withstood the [general downward trend](https://fred.stlouisfed.org/series/MSPUS) of housing prices over the recession. Despite the drop in median sales price of houses sold in the United States, the house prices in Ames remained [constant](https://fred.stlouisfed.org/series/ATNHPIUS11180Q). The resillence of house prices in Ames was likely due to [sharp increase in population](https://worldpopulationreview.com/us-cities/ames-ia-population) since 2000.
-
----
 
 ## 3. Dataset
 
@@ -83,8 +79,6 @@ Note: *Created variables, ^Dependent Variable (Y)
 7. In order to integrate both datas for regression analysis, a further 18 features were dropped from the training dataset and a further 8 features were dropped from the test dataset to ensure that they have the same features.
 8. The result is that both training and test datasets have 146 features.
 
----
-
 ## 6. Best Model
 
 After using hyperparameter tuning, the best model is as follows:
@@ -101,8 +95,6 @@ The above model is able to achieve the following scores on Kaggle submission. Ne
 
 ##### - Final Kaggle Private RMSE Score: 25190
 ##### - Final Kaggle Public RMSE Score: 31440
-
----
 
 ## 8. Conclusion
 
